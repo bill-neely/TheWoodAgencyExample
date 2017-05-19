@@ -1,0 +1,55 @@
+#nbcCalendar {
+  	width: 100%;
+  	display: inline-block;
+  	margin: 10px 0px;
+  	padding:0;
+  	vertical-align: top;
+}
+
+#nextMonth, #prevMonth {
+  cursor: pointer;
+}
+
+#nbcCalendar table {
+  width: 60%;
+  margin:auto;
+  background-color: #f6f1dc;
+  border-width: 0px;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+.nbcMonthName {
+  font-size: 18px;
+  font-weight: bold;
+  height: 16px;
+}
+
+.nbcDayNames {
+  font-size: 10px;
+  height: 16px;
+}
+
+.nbcCalendarRow td {
+  height: 75px;
+  font-size: 10px;
+  color: #000000!important;
+}
+
+#nbcCalendar .emptyDay {
+  background-color: #959595;
+}
+
+.nbcPastDay {
+  background-color: #959595;
+}
+
+.nbcToday {
+  background-color: #b5c327;
+}
+
+.nbcFutureDay {
+  background-color: #ffce34;
+}

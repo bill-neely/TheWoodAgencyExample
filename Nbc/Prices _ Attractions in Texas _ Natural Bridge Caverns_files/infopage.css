@@ -1,0 +1,244 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+	overflow: -moz-scrollbars-vertical; 
+	overflow-y: scroll;
+	height: 100%;
+	background: url(../img/SiteBackgroundImage.jpg) top no-repeat #000;
+}
+
+body {
+	margin: 0;
+	background-size: 100%;
+	height: 100%;
+	min-height: 100%;
+	position:inherit;
+}
+ 
+#pageWrapper {
+	width: 960px;
+	margin:0 auto;
+    padding: 0;
+}
+
+#logo {
+	background:url(../img/nbcLogo.png) no-repeat;
+	position: relative;
+	height: 115px;
+	width: 240px;
+	z-index: 7;
+	left: 20px;
+	top: 2px;
+}
+
+#redtop {
+	position: relative;
+	background:url(../img/RedHeaderBg2.png) no-repeat;
+	height: 146px;
+	top: -247px; /*139 + 51 + 57*/
+	z-index: 2;
+}
+
+#navigation {
+	position: relative;
+	top: -114px; /*63 + 51 + 57*/
+	margin-left: 273px;
+	z-index: 4;
+}
+
+#menu {
+	height: 76px;
+	margin-left:-44px;
+	z-index: 10;
+}
+
+#subs ul {
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+
+#subs li {
+	list-style: none;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+#subs li a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#subs li a:hover{
+	text-decoration: underline;
+}
+
+#sub1 {
+	position: relative;
+	float: left;
+	top: -50px;
+	width: 170px;
+	background:#300;
+	display:none;
+	z-index: 1;
+}
+
+#sub2 {
+	position: relative;
+	float: left;
+	top: -50px;
+	left: 270px;
+	width: 135px;
+	background:#300;
+	display:none;
+	z-index: 1;
+}
+
+#sub3 {
+	position: relative;
+	float: left;
+	top: -50px;
+	left: 350px;
+	width: 135px;
+	background:#300;
+	display:none;
+	z-index: 1;
+}
+
+#sub4 {
+	position: relative;
+	float: left;
+	top: -50px;
+	left: 420px;
+	width: 135px;
+	background:#300;
+	display:none;
+	z-index: 1;
+}
+
+#navigation ul {
+	padding-top: 25px;
+}
+
+#naviBottom {
+	position: relative;
+	background:url(img/popup/__basebottom.png) no-repeat;
+	height: 57px;
+	margin-left:-44px;
+	z-index:2;
+}
+
+area {
+	cursor: default;
+}
+
+#mainBody {
+	width: 960px;
+	background:url(../img/contentBG_.jpg) no-repeat #4c2812;
+	margin-top: -317px; /*209 + 51 + 57*/
+	clear: both;
+	position: absolute;
+}
+
+#infopage {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+#infopage h1 {
+	color: #FFF;
+	font-size: 1.8em;
+	text-transform:capitalize;
+}
+
+#todo {
+	 margin: 10px;
+}
+
+#things {
+   margin-left: -20px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}		 
+#things ul { width: 960px;
+}
+
+#things ul li{
+	display: inline-block;
+	padding-right: 15px;
+	text-align: left;
+	width: 220px;
+}
+#things ul li img {
+   float: left;
+   margin-right: 10px;
+}
+a.tourName {
+   color: #FFF;
+   font-size: 14px;
+   text-decoration: none;
+}
+
+.tourDes {
+   text-align: left;
+   color: #FF0;
+   font-size: 10px;
+}
+
+#priceinfo table {
+  margin: 15px 15px 0 15px;
+}
+
+#priceinfo td {
+   color: #FFF;
+   font-size: 16px;
+   padding-bottom: 10px;
+}
+
+.ageinfo {
+   font-size: 11px;
+}
+
+#tourinfo table {
+  margin: 15px 15px 0 15px;
+}
+
+#tourinfo td {
+   color: #FFF;
+   font-size: 14px;
+   padding-bottom: 10px;
+}
+
+#footer {
+	width: 960px;
+	border-top: #FFF solid 2px;
+	background-color: #391d13;
+	text-align: center;
+	position: absolute;
+}
+
+#footer p {
+	color: #FFF;
+	font-size: 10px;
+}
+
+#footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#footer p a:hover {
+	text-decoration: underline;
+}
+
